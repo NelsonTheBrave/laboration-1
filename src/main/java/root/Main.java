@@ -1,4 +1,4 @@
-package org.example;
+package root;
 
 import java.io.IOException;
 import java.util.*;
@@ -80,16 +80,10 @@ public class Main {
                     break;
                 } else {
                     rateScanner.nextLine(); // Avoid infinite loop by consuming the invalid input
-                    System.out.println("Invalid input. Please enter a valid integer.");
+                    System.out.println("Invalid input. Please enter an integer.");
                 }
-
-
-//                System.out.println("Sorry, you have to type in whole integers in öre/kWh and nothing else. Try again: ");
-
-                // TODO: Have to fix this in a good way
             }
         }
-
         return hourlyRates;
     }
 

@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97817d94-71fb-47d4-aef3-9de43f7c043e" name="Changes" comment="options 1-4 working, need better solution for 1">
+    <list default="true" id="97817d94-71fb-47d4-aef3-9de43f7c043e" name="Changes" comment="fixed while loop in priceInput">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.root.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="laboration-1" />
@@ -74,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="root.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="root.Main" />
+      <module name="laboration-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="root.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.root.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724415890796</updated>
       <workItem from="1725367066737" duration="3023000" />
-      <workItem from="1725441313899" duration="16785000" />
+      <workItem from="1725441313899" duration="18848000" />
     </task>
     <task id="LOCAL-00001" summary="forgot to commit -- first chunk of code that needs to be cleaned up">
       <option name="closed" value="true" />
@@ -115,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725518787944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed while loop in priceInput">
+      <option name="closed" value="true" />
+      <created>1725520157585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725520157585</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,28 +170,29 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forgot to commit -- first chunk of code that needs to be cleaned up" />
     <MESSAGE value="options 1-4 working, need better solution for 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="options 1-4 working, need better solution for 1" />
+    <MESSAGE value="fixed while loop in priceInput" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed while loop in priceInput" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/root/Main.java</url>
           <line>73</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/root/Main.java</url>
           <line>147</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/root/Main.java</url>
           <line>170</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/root/Main.java</url>
           <line>151</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
