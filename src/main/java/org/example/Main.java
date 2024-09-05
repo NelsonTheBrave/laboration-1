@@ -29,16 +29,25 @@ public class Main {
                         break;
                     case "2":
                         if (ratesEntered) {
-                        minMaxAverage(priceInput);
-                        break;} else {throw new NullPointerException();}
+                            minMaxAverage(priceInput);
+                            break;
+                        } else {
+                            throw new NullPointerException();
+                        }
                     case "3":
-                    if (ratesEntered) {
-                        sorting(priceInput);
-                        break;} else {throw new NullPointerException();}
+                        if (ratesEntered) {
+                            sorting(priceInput);
+                            break;
+                        } else {
+                            throw new NullPointerException();
+                        }
                     case "4":
-                    if (ratesEntered) {
-                        bestChargeTime(priceInput);
-                        break;} else {throw new NullPointerException();}
+                        if (ratesEntered) {
+                            bestChargeTime(priceInput);
+                            break;
+                        } else {
+                            throw new NullPointerException();
+                        }
                     case "e":
                         System.out.println("Ending");
                         menuActive = false;
@@ -48,8 +57,7 @@ public class Main {
                 }
             } catch (IOException e) {
                 System.out.println("You have to enter a valid menu option - Please try again");
-            }
-            catch (NullPointerException e) {
+            } catch (NullPointerException e) {
                 System.out.println("Please enter the rates (option 1) before choosing any of the other options");
             }
         }
@@ -62,16 +70,24 @@ public class Main {
         for (int i = 0; i < 24; i++) {
             int rate;
             String hourRange = i + "-" + (i + 1);
-            System.out.print(i + "-" + (i + 1) + ": ");
-            try {
-                rate = rateScanner.nextInt();
-            } catch (InputMismatchException e) {
-                System.out.println("Sorry, you have to type in whole integers in öre/kWh and nothing else. Try again: ");
-                rateScanner.nextLine();
-                rate = rateScanner.nextInt();
+            while (true) {
+                System.out.print(i + "-" + (i + 1) + ": ");
+
+                if (rateScanner.hasNextInt()) {
+                    rate = rateScanner.nextInt();
+                    rateScanner.nextLine();
+                    hourlyRates[i] = new PriceInputObject(hourRange, rate);
+                    break;
+                } else {
+                    rateScanner.nextLine(); // Avoid infinite loop by consuming the invalid input
+                    System.out.println("Invalid input. Please enter a valid integer.");
+                }
+
+
+//                System.out.println("Sorry, you have to type in whole integers in öre/kWh and nothing else. Try again: ");
+
                 // TODO: Have to fix this in a good way
             }
-            hourlyRates[i] = new PriceInputObject(hourRange, rate);
         }
 
         return hourlyRates;

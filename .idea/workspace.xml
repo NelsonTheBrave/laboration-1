@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97817d94-71fb-47d4-aef3-9de43f7c043e" name="Changes" comment="forgot to commit -- first chunk of code that needs to be cleaned up">
+    <list default="true" id="97817d94-71fb-47d4-aef3-9de43f7c043e" name="Changes" comment="options 1-4 working, need better solution for 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -97,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724415890796</updated>
       <workItem from="1725367066737" duration="3023000" />
-      <workItem from="1725441313899" duration="15500000" />
+      <workItem from="1725441313899" duration="16785000" />
     </task>
     <task id="LOCAL-00001" summary="forgot to commit -- first chunk of code that needs to be cleaned up">
       <option name="closed" value="true" />
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725441822766</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="options 1-4 working, need better solution for 1">
+      <option name="closed" value="true" />
+      <created>1725518787944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725518787944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,29 +140,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forgot to commit -- first chunk of code that needs to be cleaned up" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot to commit -- first chunk of code that needs to be cleaned up" />
+    <MESSAGE value="options 1-4 working, need better solution for 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="options 1-4 working, need better solution for 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>64</line>
+          <line>73</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>131</line>
+          <line>147</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>154</line>
+          <line>170</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>135</line>
+          <line>151</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
